@@ -1,0 +1,107 @@
+body {
+  /* Optional: Set some basic styles for the body, like background color and font */
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.project-header {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0px;
+}
+
+/* .todo-list{
+    padding: 200px;
+    margin-left: 350px;
+    margin-right: 350px;
+    background-color: white;
+    border-radius: 10px;
+    position: fixed;
+} */
+
+.todo-list {
+  max-height: 500px; 
+  overflow-y: auto;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+.text-field{
+  width: 470px;
+  height: 30px;
+}
+
+/* Style for the list */
+.list-view {
+  list-style: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+}
+
+/* Style for the list items */
+.list-view li {
+  padding: 5px;
+  margin: 5px 0;
+  background-color: white;
+  border-radius: 3px;
+}
+
+/* Add hover effect for better user experience */
+.list-view li:hover {
+  background-color: #ddd;
+}
+
+.contents {
+  margin: 0px;
+  padding: 0px;
+}
+
+.my-buttons {
+  margin-left: 350px;
+  margin-right: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Optional: Add styles for hover and active states to make the button interactive */
+.add-button:hover {
+  background-color: #45a049;
+}
+
+.add-button:active {
+  background-color: #3e8e41;
+}
+
+.delete-button {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Optional: Add styles for hover and active states to make the button interactive */
+.delete-button:hover {
+  background-color: #cb3939;
+}
+
+.delete-button:active {
+  background-color: #da5252;
+}
